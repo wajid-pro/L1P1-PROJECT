@@ -1,3 +1,5 @@
 #!/bin/bash
-sudo apt install -y httpd
+apt -y install httpd
+systemctl enable httpd
+systemctl start httpd.service
 
