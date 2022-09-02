@@ -1,5 +1,7 @@
 #!/bin/bash
-apt -y install httpd
-systemctl enable httpd
-systemctl start httpd.service
+apt -y install apache2
+systemctl start apache2
+systemctl enable apache2
+
+
 
